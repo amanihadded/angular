@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     min-height: 91.6vh;
-    background-image: url('../../../assets/manif-soutien-palestine-scaled.jpg');
+    background-image: url('../../../assets/Images/BG.png');
     background-size: cover;
     background-position: center;
     background-color: #000;
@@ -16,7 +16,7 @@
     padding: 30px;
     overflow: hidden;
     position: relative;
-    height: 660px;
+    height: 800px;
 }
 
 /* Animation d'entrée pour la citation */
@@ -44,8 +44,6 @@
     margin-top: 30px;
 }
 
-
-
 .quote h1 {
     font-family: 'Cooper Black', sans-serif;
     font-size: 36px;
@@ -59,6 +57,7 @@
     color: #fff;
 }
 
+/* Section des boutons */
 .button-section {
     margin-top: 30px;
     display: flex;
@@ -69,14 +68,23 @@
     margin: 0 10px;
     padding: 12px 24px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #235724;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+/* Effet hover et interactivité */
 .btn:hover {
     background-color: #45a049;
+    transform: scale(1.05); /* Légère augmentation de taille */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre */
+}
+
+/* Effet actif */
+.btn:active {
+    transform: scale(0.98); /* Légère réduction de taille pour effet clic */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }

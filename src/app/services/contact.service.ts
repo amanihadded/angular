@@ -7,7 +7,7 @@ import { ContactMessage } from '../models/contact-message.model';
   providedIn: 'root',
 })
 export class ContactService {
-  private apiUrl = 'http://localhost:3030/contact/send'; // URL de votre backend (modifie selon ta configuration)
+  private apiUrl = 'http://localhost:8888/contact/send'; // URL de votre backend (modifie selon ta configuration)
 
   constructor(private http: HttpClient) {}
 
