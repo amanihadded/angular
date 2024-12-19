@@ -8,7 +8,7 @@ import { Submission } from '../models/submission.model';  // Submission model
 })
 export class SomethingMissingService {
 
-  private apiUrl = 'http://localhost:8888/api/submissions'; // Backend API URL
+  private apiUrl = 'http://localhost:5000/api/submissions'; // Backend API URL
 
   constructor(private http: HttpClient) { }
 

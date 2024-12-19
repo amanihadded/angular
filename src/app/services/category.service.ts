@@ -9,7 +9,7 @@ import { KeyclockService } from './keyclock.service';
 })
 export class CategoryService {
   private userToken: string | undefined;
-  private apiUrl = 'http://localhost:8888/api/boycott/categories';
+  private apiUrl = 'http://localhost:8082/api/boycott/categories';
 
   constructor(private http: HttpClient, private keyclock: KeyclockService) {
     this.userToken = this.keyclock.getToken();

@@ -7,7 +7,7 @@ import { ContactAdmin } from '../models/contact-admin.model';
   providedIn: 'root',
 })
 export class ContactMessageService {
-  private apiUrl = 'http://localhost:8888/contact/messages'; 
+  private apiUrl = 'http://localhost:3030/contact/messages'; // Remplacez par votre URL backend
 
   constructor(private http: HttpClient) {}
 

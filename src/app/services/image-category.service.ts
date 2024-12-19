@@ -10,7 +10,7 @@ import { KeyclockService } from './keyclock.service';
 export class ImageCategoryService {
   private userToken: string | undefined;
 
-  private apiUrl = 'http://localhost:8888/api/boycott/imageCategory';
+  private apiUrl = 'http://localhost:8082/api/boycott/imageCategory';
 
   constructor(private http: HttpClient, private keyclock: KeyclockService) {this.userToken = this.keyclock.getToken();}
 

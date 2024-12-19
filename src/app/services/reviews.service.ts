@@ -8,7 +8,7 @@ import { Review } from '../models/Review.model';  // Modèle Review (assurez-vou
 })
 export class ReviewService {
 
-  private apiUrl = 'http://localhost:8888/api/submissions'; 
+  private apiUrl = 'http://localhost:5000/api/submissions'; 
 
   constructor(private http: HttpClient) { }
 
